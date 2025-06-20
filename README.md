@@ -1,12 +1,61 @@
-# React + Vite
+# ⚡ evERA - Electric Vehicle Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+evERA is a sleek and modern electric vehicle landing page built with **React.js**. It showcases the brand's identity, core offerings, and mission to revolutionize eco-friendly mobility.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Preview
 
-## Expanding the ESLint configuration
+[Live Demo (if hosted)](https://your-demo-link.com)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
+evERA/
+├── public/
+│ └── favicon.ico # evERA favicon
+├── src/
+│ ├── assets/ # Images, logos, icons
+│ ├── components/ # Reusable UI components (Navbar, Hero, etc.)
+│ ├── App.jsx # Main component
+│ ├── main.jsx # Entry point
+│ └── styles/ # CSS or Tailwind config
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js # Vite configuration
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- [React.js](https://reactjs.org/)
+- [Vite](https://vitejs.dev/) for fast build & dev server
+- [Tailwind CSS](https://tailwindcss.com/) *(optional if used)*
+- Responsive Design (Mobile + Desktop friendly)
+
+---
+
+## 📦 Getting Started
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/evERA.git
+```
+✨ Features
+Bold, electric-themed branding
+
+Responsive design
+
+Clean, modular component structure
+
+Mobile-first layout
+
+Easily customizable
+
+
+
+🤝 Connect
+Created with ⚡ by [Shakeb Shamis]
+
