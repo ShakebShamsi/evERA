@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
-import Background from './components/background/Background';
-import Navbar from './components/navbar/Navbar'
-import Hero from './components/hero/Hero'
+import Background from './components/background/Background.jsx';
+import Navbar from './components/navbar/Navbar.jsx'
+import Hero from './components/hero/Hero.jsx'
 
 const App = () => {
    let heroData = [
