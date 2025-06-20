@@ -1,9 +1,17 @@
 import './Navbar.css'
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <div>navbar</div>
+     <div className='nav'>
+        <div className="nav-logo">evERA</div>
+        <ul className="nav-menu">
+           <li>Home</li>
+           <li>Explore</li>
+           <li>About</li>
+           <li className="nav-contact">Contact</li>
+        </ul>
+    </div>
   )
 }
 
-export default navbar
+export default Navbar
