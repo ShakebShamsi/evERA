@@ -5,9 +5,9 @@ const Navbar = () => {
      <div className='nav'>
         <div className="nav-logo">evERA</div>
         <ul className="nav-menu">
-           <li>Home</li>
-           <li>Explore</li>
-           <li>About</li>
+           <li className='nav-li'>Home</li>
+           <li className='nav-li'>Explore</li>
+           <li className='nav-li'>About</li>
            <li className="nav-contact">Contact</li>
         </ul>
     </div>
