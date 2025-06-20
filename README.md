@@ -1,11 +1,12 @@
 # ⚡ evERA - Electric Vehicle Landing Page
 
+![evERA](https://github.com/user-attachments/assets/64a5356b-8875-4769-93a2-a23076940950)
 
 evERA is a sleek and modern electric vehicle landing page built with **React.js**. It showcases the brand's identity, core offerings, and mission to revolutionize eco-friendly mobility.
 
 ## 🚀 Live Preview
 
-[Live Demo (if hosted)](https://your-demo-link.com)
+[Watch Live](https://evera-c5w6.onrender.com/)
 
 ---
 
@@ -43,19 +44,11 @@ evERA/
 ```bash
 git clone https://github.com/your-username/evERA.git
 ```
-✨ Features
+## ✨ Features
 Bold, electric-themed branding
-
 Responsive design
-
 Clean, modular component structure
-
-Mobile-first layout
-
 Easily customizable
 
 
-
-🤝 Connect
-Created with ⚡ by [Shakeb Shamis]
 
