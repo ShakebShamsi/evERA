@@ -20,9 +20,11 @@
 }
 .hero-explore p{
    color: #292929;
+   color: #000;
    font-size: 20px;
-   font-weight: 500;
+   font-weight: 400;
    padding-left: 14px;
+   font-family:cursive;
 }
 .hero-dot-play{
    display: flex;

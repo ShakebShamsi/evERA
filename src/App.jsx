@@ -1,39 +1,35 @@
-import { useState, useEffect } from 'react'
-import Background from './components/Background/Background';
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Hero/Hero'
+import HeroSection from './components/HeroSection/HeroSection';
+import Explore from './components/Explore/Explore';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
-   let heroData = [
-      { text1: "Redefine Roads",text2:"With evERA" },
-      { text1: "Born to",text2:"Be Electric" },
-      { text1: "Feel the",text2:"Electric Rush" }
-   ]
-   const [heroCount, setHeroCount] = useState(2);
-   const [playStatus, setPlayStatus] = useState(false);
-   
-   useEffect(() => {
-      setInterval(() => {
-         setHeroCount((count) => {
-            return count===2? 0:count+1
-         })
-      }, 3000);
-   },[])
-   
-   return (
-      <div>
-         <Background playStatus={playStatus} heroCount={heroCount} />     
-         <Navbar />
-         <Hero 
-            setPlayStatus={setPlayStatus}
-            heroData={heroData[heroCount]}
-            heroCount={heroCount}
-            setHeroCount={setHeroCount}
-            playStatus={playStatus}
-            
-         />
-      </div>
-   )
-}
+   const exploreRef = useRef(null);
+   const aboutRef = useRef(null);
+   const contactRef = useRef(null);
 
-export default App
+   const scrollToSection = (ref) => {
+      if (ref.current) {
+         ref.current.scrollIntoView({ behavior: 'smooth' });
+      }
+   };
+
+   return (
+      <>
+         <HeroSection scroll={scrollToSection} />
+         <div ref={exploreRef}>
+            <Explore />
+         </div>
+         <div ref={aboutRef}>
+            <About />
+         </div>
+         <div ref={contactRef}>
+            <Contact />
+         </div>
+         <Footer />
+      </>
+   );
+};
+
+export default App;

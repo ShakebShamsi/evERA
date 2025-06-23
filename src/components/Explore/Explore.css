@@ -1,0 +1,127 @@
+.explore-section {
+   padding: 100px 20px;
+   background: #f7f7f7;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ .explore-title {
+   font-size: 42px;
+   font-weight: bold;
+   margin-bottom: 10px;
+   color: #222;
+ }
+ 
+ .explore-subtitle {
+   font-size: 18px;
+   margin-bottom: 50px;
+   color: #666;
+ }
+ 
+ .vehicle-grid {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 30px;
+   margin-bottom: 60px;
+ }
+ 
+ .vehicle-card {
+   background: #fff;
+   border-radius: 16px;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+   padding: 25px;
+   width: 300px;
+   transition: transform 0.3s ease;
+ }
+ 
+ .vehicle-card:hover {
+   transform: translateY(-10px);
+ }
+ 
+ .vehicle-img {
+   width: 100%;
+   height: 180px;
+   object-fit: cover;
+   border-radius: 12px;
+   margin-bottom: 20px;
+ }
+ 
+ .vehicle-card h3 {
+   margin: 10px 0 8px;
+   font-size: 20px;
+   color: #333;
+ }
+ 
+ .vehicle-card p {
+   color: #666;
+   font-size: 15px;
+ }
+ 
+ .spec-highlight {
+   margin: 80px auto 60px;
+   max-width: 700px;
+ }
+ 
+ .spec-highlight h3 {
+   font-size: 28px;
+   margin-bottom: 20px;
+   color: #222;
+ }
+ 
+ .tech-list {
+   list-style: none;
+   padding: 0;
+   font-size: 16px;
+   color: #444;
+   place-items: center;
+   
+ }
+ 
+ .tech-list li {
+   margin: 10px 30px;
+ }
+ 
+ .explore-cta {
+   margin: 80px auto 60px;
+ }
+ 
+ .explore-cta h4 {
+   font-size: 22px;
+   margin-bottom: 20px;
+   color: #222;
+ }
+ 
+ .primary-btn,
+ .secondary-btn {
+   padding: 12px 24px;
+   font-size: 16px;
+   border-radius: 8px;
+   border: none;
+   cursor: pointer;
+   margin: 10px;
+ }
+ 
+ .primary-btn {
+   background-color: #ff5858;
+   color: white;
+   border: 2px solid #ff5858;
+ }
+ 
+ .primary-btn:hover {
+   background-color: #005ad1;
+   border: 2px solid #005ad1;
+ }
+ 
+ .secondary-btn {
+   background-color: transparent;
+   color: #000;
+   border: 2px solid #ff5858;
+ }
+ 
+ .secondary-btn:hover{
+   border: 2px solid #005ad1;
+ }
+ 
+ 
+ 
