@@ -3,6 +3,7 @@ import Explore from './components/Explore/Explore';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import { useRef } from 'react';
 
 const App = () => {
    const exploreRef = useRef(null);
