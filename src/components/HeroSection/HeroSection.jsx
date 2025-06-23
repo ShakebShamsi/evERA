@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Hero from '../HeroSlider/HeroSlider'
 import Background from '../Background/Background'
-import Navbar from '../navbar/Navbar'
+import Navbar from '../Navbar/Navbar'
 
 const HeroSection = ({scroll}) => {
    let heroData = [
