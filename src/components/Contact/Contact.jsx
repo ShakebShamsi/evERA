@@ -1,4 +1,3 @@
-import React from 'react';
 import './Contact.css';
 
 const Contact = () => {
@@ -24,7 +23,7 @@ const Contact = () => {
 
             <div className="contact-info">
                <h4>Corporate Office</h4>
-               <p>evERA Mobility Pvt. Ltd.<br />123 Green Drive, New Energy Park,<br />Pune, Maharashtra, India</p>
+               <p>evERA Mobility Pvt. Ltd.<br />Indiranagar, Bengaluru.</p>
 
                <h4>Email & Phone</h4>
                <p>support@evera.com<br />+91 98765 43210</p>
@@ -47,7 +46,9 @@ const Contact = () => {
                   <h4>Follow Us</h4>
                   <div className="social-links">
                      <a href="#">LinkedIn</a>
+                     {"|"}
                      <a href="#">Twitter</a>
+                     {"|"}
                      <a href="#">Instagram</a>
                   </div>
                </div>

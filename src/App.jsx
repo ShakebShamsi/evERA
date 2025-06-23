@@ -3,6 +3,7 @@ import Explore from './components/Explore/Explore';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar'
 import { useRef } from 'react';
 
 const App = () => {
@@ -18,7 +19,12 @@ const App = () => {
 
    return (
       <>
-         <HeroSection scroll={scrollToSection} />
+         <Navbar
+            scrollToSection={scrollToSection}
+            exploreRef={exploreRef}
+            aboutRef={aboutRef}
+            contactRef={contactRef} />
+         <HeroSection />
          <div ref={exploreRef}>
             <Explore />
          </div>
